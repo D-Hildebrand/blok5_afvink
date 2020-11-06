@@ -240,11 +240,6 @@ public class fileInterpreter extends JFrame implements ActionListener {
                         "Selecteer een (ander) bestand of controlleer de inhoud.");
             }
 
-            //Removing protein code from the file
-            file1content.remove("Protein code");
-            file2content.remove("Protein code");
-            file1size--;
-            file2size--;
 
             //Counting how many objects are in each of the sets
 
